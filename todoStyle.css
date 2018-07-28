@@ -1,0 +1,77 @@
+body{
+    background-color:darkolivegreen;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.heading{
+    height: 100px;
+    width: 90%;
+    background-color:darkslategrey;
+    border-radius: 25%;
+    margin: 20px;
+}
+.InpAdd{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    background-color: cadetblue;
+}
+.input{
+    width: 50%;
+    margin-top: 30px;
+}
+#add{
+    height: 35%;
+    display: inline-block;
+    background-color:aquamarine;
+    color:indianred;
+    border-radius: 5px;
+    text-align:center;
+    margin-top: 42%;
+    margin-left: 5px;
+    padding: 5px 15px;
+}
+#inp{
+    height: 35%;
+    width: 100%;
+    font-size: 20px;
+}
+.res{
+    width: 100%;
+    background-color:mediumaquamarine;
+    color: orangered;
+}
+li{
+    height: 80px;
+    font-size: 23px;
+}
+.newinp{
+height: 30px;
+    font-size: 20px;
+}
+
+.elem{
+    margin: 20px;
+}
+
+.update{
+    background-color:darkgreen;
+    color:yellow;
+    border-radius: 5px;
+    text-align:center;
+    height: 35%;
+}
+
+.delete{
+float: right;
+    margin-right: 20px;
+}
+
+.heading > h1{
+    color: gold;
+}
